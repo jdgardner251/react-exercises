@@ -27,3 +27,7 @@ Implement a `Stats` component that accepts the following props:
 Style is not important, but display positive and negative change differently. Use the characters &#8598; and &#8600; respectively.
 
 Display the absolute value of the change, the colour and the arrow will indicate if it was a positive or negative change.
+
+## LICENSE
+
+This is [MIT Licensed](LICENSE)
