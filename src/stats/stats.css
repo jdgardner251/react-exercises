@@ -1,0 +1,43 @@
+.stats {
+  max-width: 200px;
+  width: 90%;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  margin: 3px;
+  padding: 4px;
+  background: rgba(200, 200, 200, 0.1);
+}
+
+.stats__label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.stats__value {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.stats__values {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats__change {
+  border: solid 1px;
+  padding: 2px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stats__change--positive {
+  color: #008600;
+  border-color: rgba(0, 200, 0, 0.5);
+  background: rgba(0, 200, 0, 0.2);
+}
+
+.stats__change--negative {
+  color: #860000;
+  border-color: rgba(200, 0, 0, 0.5);
+  background: rgba(200, 0, 0, 0.2);
+}
