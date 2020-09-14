@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+// Import the stats component
+// import Stats from "./stats/stats";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="App__header">
+        <h1>React Exercises</h1>
       </header>
+      <section>
+        <h2>Stats</h2>
+        {/* <Stats label="Books Read" value={14} change={5} />
+        <Stats label="Pies Eaten" value={3} change={-30} /> */}
+      </section>
     </div>
   );
 }
