@@ -28,6 +28,14 @@ Style is not important, but display positive and negative change differently. Us
 
 Display the absolute value of the change, the colour and the arrow will indicate if it was a positive or negative change.
 
+## Solutions
+
+Reference solutions are provided on the Solutions branch of this repository.
+
+```bash
+git checkout Solutions
+```
+
 ## LICENSE
 
 This is [MIT Licensed](LICENSE)
